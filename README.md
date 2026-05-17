@@ -1,9 +1,70 @@
-# Terraform-Install-Windows
-How to install Terraform on Windows local machine
+# Terraform AWS EC2 Project
 
-## Download Terraform 
-**Arch Type - 386**\
-Version: 1.15.3\
-Download link - https://releases.hashicorp.com/terraform/1.15.3/terraform_1.15.3_windows_386.zip
+This project uses Terraform to create AWS infrastructure.
 
+## Tools Used
 
+- Terraform
+- AWS
+- GitHub
+- Windows PowerShell
+
+---
+
+## Project Structure
+
+```bash
+terraform-project/
+│
+├── main.tf
+├── README.md
+```
+
+---
+
+## Terraform Commands
+
+### Initialize Terraform
+
+```bash
+terraform init
+```
+
+### Validate Configuration
+
+```bash
+terraform validate
+```
+
+### Preview Infrastructure
+
+```bash
+terraform plan
+```
+
+### Create Infrastructure
+
+```bash
+terraform apply
+```
+
+### Destroy Infrastructure
+
+```bash
+terraform destroy
+```
+
+---
+
+## AWS Resources Created
+
+- EC2 Instance
+- Security Group
+- AWS Provider Configuration
+
+---
+
+## Author
+
+Deepak Kiran
+AWS & DevOps Learner
